@@ -8,6 +8,10 @@ body {
    color: white;
 }
 
+.header, .footer {
+   text-align: center;
+}
+
 h1 {
    color: grey;
    font-family: verdana;
