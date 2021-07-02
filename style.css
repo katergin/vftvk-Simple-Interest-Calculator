@@ -1,4 +1,40 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+   box-sizing: border-box;
+}
 
+body {
+   background-color: black;
+   font-family: arial;
+   color: white;
+}
 
+h1 {
+   color: grey;
+   font-family: verdana;
+}
+
+.main {
+   background-color: white;
+   color: black;
+   width: 640px;
+   padding: 20px;
+   border-radius: 25px;
+   margin: 0 auto;
+}
+
+.form {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: flex-start;
+   width: 70%;
+   margin: 3rem auto;
+}
+
+.form > * {
+   margin: .5rem 0;
+   flex: 0 50%;
+}
+
+#result {
+   flex: 100%;
+}
